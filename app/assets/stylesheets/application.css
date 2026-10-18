@@ -8,3 +8,85 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    color: #252525;
+    margin: 40px;
+}
+
+/* Page headings */
+h1 {
+    color: #b22222;
+    border-bottom: 2px solid #b22222;
+    padding-bottom: 10px;
+}
+
+/* Movie table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Table header */
+th {
+    background-color: #333;
+    color: white;
+}
+
+th a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Highlight the sorted column */
+th.sorted-asc {
+    background-color: #287d46;
+}
+
+th.sorted-desc {
+    background-color: #2563a6;
+}
+
+/* Links */
+a {
+    color: #b22222;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons and form submit controls */
+input[type="submit"], button {
+    background-color: #b22222;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Input fields */
+input[type="text"], textarea, select, input[type="date"] {
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
